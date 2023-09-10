@@ -1,0 +1,70 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: white;
+}
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+#container{
+    background-color: #9b6537;
+    width: 50%;
+    margin: 50px;
+    padding: 50px;
+    display: flex;
+}
+#image{
+    border-radius: 15px;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    margin-bottom: 20px;
+}
+#coeur{
+    width: 50px;
+}
+.selena{
+    color: rgb(39, 47, 47);
+}
+.twoscection{
+    margin-left: 100px;
+    text-align: left;   
+}
+#check{
+    padding-bottom: 10px;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: larger;
+}
+#heure, #date{
+    border-radius: 9px;
+    background-color: rgb(173, 158, 158, 0.8);
+}
+#salutation{
+    display: flex;
+    
+}
+#aecImage{
+    float: left;
+    width: 80px;
+}
+h2, h1{
+    padding-bottom: 29px;
+    margin-bottom: 10px;
+}
+#year{
+    background-color: rgba(173, 158, 158, 0.8) ;
+    border-radius: 15px;
+    text-align: left;
+    margin: 5px;
+}
+#footer{
+    position: relative;
+    right: 400px;
+    top: 555px;
+}
